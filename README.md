@@ -1,3 +1,6 @@
+---
+permalink: /index.html
+---
 # Odin Landing Page
 
 ## Project Description
