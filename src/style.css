@@ -158,6 +158,25 @@ a {
   display: flex;
   background-color: #e5e7eb;
 }
+.quote-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 150px;
+  gap: 5px;
+}
+p.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+p.author {
+  align-self: flex-end;
+  padding-right: 35px;
+  font-weight: bolder;
+  font-size: 20px;
+}
 /* -------------------------------------------------------------------------- */
 /*                                   SIGN-UP                                  */
 /* -------------------------------------------------------------------------- */
