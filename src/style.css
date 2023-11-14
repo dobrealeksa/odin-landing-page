@@ -6,6 +6,7 @@
 body {
   height: 100dvh;
   background-color: black;
+  font-family: "Roboto", sans-serif;
 }
 .body-container {
   display: flex;
@@ -13,6 +14,7 @@ body {
   height: 100dvh;
   margin: 0 auto;
   max-width: 1130px;
+  width: 100%;
   background-color: rgb(238, 238, 238);
 }
 /* -------------------------------------------------------------------------- */
@@ -23,6 +25,32 @@ body {
   display: flex;
   background-color: #394b64;
 }
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.link > a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+ul,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+.nav-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 160px;
+}
+.links-wrap {
+  display: flex;
+  gap: 15px;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                   HEADER                                   */
 /* -------------------------------------------------------------------------- */
@@ -31,6 +59,7 @@ body {
   display: flex;
   background-color: #1f2937;
 }
+
 /* -------------------------------------------------------------------------- */
 /*                                    INFO                                    */
 /* -------------------------------------------------------------------------- */
