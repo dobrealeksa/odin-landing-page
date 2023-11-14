@@ -185,6 +185,31 @@ p.author {
   display: flex;
   background-color: white;
 }
+.signup-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 6px;
+  margin: 80px 160px;
+}
+.p1,
+.p2 {
+  color: #f9faf8;
+}
+.p1 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.sign-button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  padding: 7px 28px;
+  border-radius: 8px;
+}
 /* -------------------------------------------------------------------------- */
 /*                                   FOOTER                                   */
 /* -------------------------------------------------------------------------- */
