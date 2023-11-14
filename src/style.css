@@ -114,6 +114,42 @@ a {
   display: flex;
   background-color: white;
 }
+.info-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.info-p {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding-top: 30px;
+}
+.box-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.item-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  gap: 5px;
+}
+.box {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  aspect-ratio: 1;
+  width: auto;
+}
+.box-p {
+  width: auto;
+  text-align: center;
+}
 /* -------------------------------------------------------------------------- */
 /*                                    QUOTE                                   */
 /* -------------------------------------------------------------------------- */
