@@ -58,8 +58,54 @@ a {
   height: 365px;
   display: flex;
   background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
 }
-
+.header-h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.header-p,
+.header-img {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.header-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 160px;
+}
+.left-wrap,
+.right-wrap {
+  width: 50%;
+}
+.left-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.right-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d747d;
+  align-self: stretch;
+}
+.header-img {
+  color: white;
+}
+.header-button {
+  align-self: flex-start;
+  font-weight: bolder;
+  border: none;
+  background-color: #3882f6;
+  color: white;
+  padding: 7px 28px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
 /* -------------------------------------------------------------------------- */
 /*                                    INFO                                    */
 /* -------------------------------------------------------------------------- */
