@@ -218,3 +218,16 @@ p.author {
   display: flex;
   background-color: #1f2937;
 }
+.footer-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright,
+.symbol {
+  color: #e5e7eb;
+}
+.symbol {
+  padding: 0 5px;
+}
